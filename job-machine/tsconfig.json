@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@/components/*": ["src/components/*"],
+      "@/redux/*": ["src/redux/*"],
+      "@/router/*": ["src/router/*"],
+      "@/utils/*": ["src/utils/*"],
+      "@/service/*": ["src/service/*"],
+      "@/pages/*": ["src/pages/*"],
+      "@/interfaces/*": ["src/interfaces/*"],
+      "@/layout/*": ["src/layout/*"],
+      "@/assets/*": ["src/assets/*"],
+      "@/hooks/*": ["src/hooks/*"],
+      "@/constants/*": ["src/constants/*"],
+      "@/api/*": ["src/api/*"],
+      "@/helper/*": ["src/helper/*"],
+      "@/style/*": ["src/style/*"]
+    },
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "incremental": false,
+    "declaration": false,
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "useUnknownInCatchVariables": false
+  },
+  "include": ["src"],
+  "exclude": [
+    "./node_modules",
+    "./__tests__",
+    "./build",
+    "./.eslintrc.js",
+    "./tsconfig.json"
+  ]
+}
